@@ -43,8 +43,8 @@ class dbDataTunneling():
             "active":true,
             "comm":
                 [
-                    {"name":"pulp2", "ip":"10.29.13.222","user":"abbsg","user":"abbsg","sid":"ADVA","port":1521,"post":[],"get":[]},
-                    {"name":"nps", "ip":"10.29.12.245","user":"abbsg","user":"abbsg","sid":"ADVA","port":1521,"post":[],"get":[]}
+                    {"name":"area2", "ip":"10.29.13.222","user":"","user":"","sid":"","port":2521,"post":[],"get":[]},
+                    {"name":"area3", "ip":"10.29.12.245","user":"","user":"","sid":"","port":2521,"post":[],"get":[]}
                 ]
         }
         """
