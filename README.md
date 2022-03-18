@@ -1,3 +1,3 @@
 # zxferv2
 # Create binary
-pyinstaller -F zxfer.py
+pyinstaller -F main.py
