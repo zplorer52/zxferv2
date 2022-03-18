@@ -1,0 +1,120 @@
+{
+    "app": [
+        {
+            "active": true,
+            "comm": [
+                {
+                    "name": "pulp2",
+                    "ip": "10.29.13.222",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [
+                        "sapuser.v_send_pulp2_to_apm3_01"
+                    ],
+                    "receive": [
+                        "UserCred.CPY_DT_APM3_PULP2_001"
+                    ]
+                },
+                {
+                    "name": "apm3",
+                    "ip": "10.29.81.196",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [
+                        "UserCred.DT_APM3_PULP2_001"
+                    ],
+                    "receive": [
+                        "apm3_sap_user.recv_pulp2_to_apm3_01"
+                    ]
+                }
+            ]
+        },
+        {
+            "active": true,
+            "comm": [
+                {
+                    "name": "pulp2",
+                    "ip": "10.29.13.222",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [],
+                    "receive": [
+                        "UserCred.CPY_NPS_PROCS_DATA_XFER"
+                    ]
+                },
+                {
+                    "name": "nps",
+                    "ip": "10.29.12.245",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [
+                        "netuser.v_send_nps_to_pulp2_01"
+                    ],
+                    "receive": []
+                }
+            ]
+        },
+        {
+            "active": true,
+            "comm": [
+                {
+                    "name": "pulp2",
+                    "ip": "10.29.13.222",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [],
+                    "receive": [
+                        "UserCred.CPY_DT_PB5A_PULP2"
+                    ]
+                },
+                {
+                    "name": "pb5a",
+                    "ip": "10.29.79.231",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [
+                        "UserCred.DT_PB5A_PULP2"
+                    ],
+                    "receive": []
+                }
+            ]
+        },
+        {
+            "active": false,
+            "comm": [
+                {
+                    "name": "nps",
+                    "ip": "10.29.12.245",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [],
+                    "receive": []
+                },
+                {
+                    "name": "pb5a",
+                    "ip": "10.29.79.231",
+                    "user": "UserCred",
+                    "passwd": "UserCred",
+                    "sid": "ServiceName",
+                    "port": 3000,
+                    "send": [],
+                    "receive": []
+                }
+            ]
+        }
+    ]
+}
