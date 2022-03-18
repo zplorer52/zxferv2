@@ -43,8 +43,8 @@ class dbDataTunneling():
             "active":true,
             "comm":
                 [
-                    {"name":"area2", "ip":"10.29.13.222","user":"","user":"","sid":"","port":2521,"post":[],"get":[]},
-                    {"name":"area3", "ip":"10.29.12.245","user":"","user":"","sid":"","port":2521,"post":[],"get":[]}
+                    {"name":"area2", "ip":"10.29.13.222","user":"username","passwd":"passwd","sid":"ServiceName","port":2521,"post":[],"get":[]},
+                    {"name":"area3", "ip":"10.29.12.245","user":"username","passwd":"passwd","sid":"ServiceName","port":2521,"post":[],"get":[]}
                 ]
         }
         """
